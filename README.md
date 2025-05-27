@@ -44,8 +44,8 @@ Ce projet s’inscrit dans le cadre du **Master MOSEF – Risque de Crédit** et
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/ton-utilisateur/nom-du-repo.git
-cd nom-du-repo
+git clone https://github.com/lucasvazelle/CREDIT_RISK_PROJECTION_CCF.git
+cd CREDIT_RISK_PROJECTION_CCF
 ```
 
 ### 2. Créer et activer un environnement virtuel
