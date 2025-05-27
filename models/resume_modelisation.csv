@@ -1,0 +1,6 @@
+Segment,R2_RF,R2_OLS,Hypothèses non respectées,Variables utilisées
+1,0.91,0.394,Aucune,"year, PIB_lag2, Inflation_diff1_lag2, IPL_diff1_hp_lag2, PIB_ma5, PIB_x_TCH, PIB_x_TCH_ma3, PIB_squared, Inflation_diff1_squared"
+2,0.875,0.465,Aucune,"Inflation_diff1, PIB_lag1, Inflation_diff1_lag1, PIB_lag2, TCH_diff1_lag2, Inflation_diff1_lag2, IPL_diff1_hp_lag2, PIB_ma3, PIB_ma5, Inflation_ma5, IPL_ma5, PIB_x_TCH, Inflation_x_IPL, Inflation_diff1_squared, PIB_x_TCH_squared"
+3,0.867,0.424,Aucune,"PIB, Inflation_diff1, IPL_diff1_hp, quarter, IPL_diff1_hp_lag1, Inflation_diff1_lag2, TCH_ma5, PIB_x_Inflation, TCH_x_IPL, Inflation_x_IPL, PIB_x_TCH_ma3, PIB_squared, Inflation_diff1_squared, IPL_diff1_hp_squared, PIB_pct_change, PIB_x_TCH_squared"
+4,0.896,0.574,Aucune,"year, IPL_diff1_hp_lag1, PIB_lag2, TCH_diff1_lag2, Inflation_diff1_lag2, IPL_diff1_hp_lag2, TCH_ma3, IPL_ma3, TCH_ma5, Inflation_ma5, PIB_x_TCH_ma3, PIB_squared, Inflation_diff1_squared"
+5,0.909,0.249,"DW, Shapiro, JB","year, Inflation_diff1_lag1, IPL_diff1_hp_lag1, TCH_ma5"
