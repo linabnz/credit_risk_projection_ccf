@@ -1,0 +1,18 @@
+# Exclure les données sources
+data/
+outputs/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+*.ipynb_checkpoints
+
+# Environnement virtuel
+.venv/
+env/
+
+# Fichiers de configuration utilisateur
+*.env
