@@ -1,7 +1,7 @@
 # Exclure les données sources
 data/
 outputs/
-
+notebooks/
 __pycache__/
 *.pyc
 *.pyo
