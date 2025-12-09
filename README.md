@@ -1,20 +1,20 @@
-# 📊 Recalibrage du CCF Forward Looking - Projet MOSEF 2025
+# Recalibrage du CCF Forward Looking - Projet MOSEF 2025
 
-## 🧠 Contexte du projet
+##  Contexte du projet
 
 Ce projet s’inscrit dans le cadre du **Master MOSEF – Risque de Crédit** et vise à **modéliser le CCF (Credit Conversion Factor) de manière Forward Looking**. Il répond à une problématique actuelle en lien avec **l’évolution des normes IFRS9** : avec la disparition de la modélisation bâloise pour certains contrats, l’enjeu est d’**anticiper économiquement le comportement du CCF**, comme cela se fait déjà pour la PD ou la LGD.
 
-### 🎯 Objectifs
+###  Objectifs
 
 - Projeter le **CCF à horizon 3 ans**, selon différents **scénarios macroéconomiques** (`CENT`, `PESS`, `OPT`).
 - Utiliser des données segmentées par `note_ref` (de 1 à 5).
 - Comparer deux types de modèles :
-  - 🔹 Régression linéaire OLS
-  - 🔸 Random Forest (non-linéaire, robuste)
+  -  Régression linéaire OLS
+  -  Random Forest (non-linéaire, robuste)
 
 ---
 
-## 🛠️ Structure du projet
+##  Structure du projet
 
 ```
 .
@@ -39,7 +39,7 @@ Ce projet s’inscrit dans le cadre du **Master MOSEF – Risque de Crédit** et
 
 ---
 
-## 🚀 Installation & Lancement
+##  Installation & Lancement
 
 ### 1. Cloner le dépôt
 
@@ -74,7 +74,7 @@ python main.py --modele OLS
 
 ---
 
-## 🧪 Ce que fait le script
+##  Ce que fait le script
 
 L'exécution de `main.py` effectue les étapes suivantes :
 
@@ -90,28 +90,28 @@ L'exécution de `main.py` effectue les étapes suivantes :
 
 ---
 
-## 🧠 Méthodologie
+## Méthodologie
 
-### 🔧 Enrichissement macroéconomique
+### Enrichissement macroéconomique
 - Variables dérivées : `diff`, `lag`, `rolling mean`, `interactions`, `quadratiques`, etc.
 - Ajout de contextes économiques : `COVID`, `effets post-COVID`, `HP filter`.
 
-### 📉 Stationnarité
+### Stationnarité
 - Test ADF sur chaque série.
 - Filtrage HP pour les séries non stationnaires.
 
-### 🧬 Modélisation
+### Modélisation
 - **RandomForestRegressor** avec sélection des variables les plus importantes.
 - **OLS** avec vérification des hypothèses classiques : DW, Breusch-Pagan, Shapiro, Jarque-Bera.
 - Résumé des performances (`R²`, violations des hypothèses, variables utilisées).
 
-### 📈 Projection & Visualisation
+### Projection & Visualisation
 - Prédiction sur 3 ans via fichier de scénarios.
 - Visualisation automatique des résultats (par segment et modèle).
 
 ---
 
-## 📂 Fichiers de sortie
+## Fichiers de sortie
 
 | Type de fichier         | Chemin                                        |
 |-------------------------|-----------------------------------------------|
@@ -125,11 +125,11 @@ L'exécution de `main.py` effectue les étapes suivantes :
 
 
 
-## 👨‍🎓 Auteurs
+## Auteurs
 
 Projet réalisé par **Sharon Chemmama**  , **Mariam Tarverdian** ,**Lina Benzemma** , **Lucas Vazelle**
 Master MOSEF – Université Paris 1  
-📅 Promo 2025  
+Promo 2025  
 
 
 ---
